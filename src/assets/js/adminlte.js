@@ -1351,7 +1351,7 @@
   var EVENT_COLLAPSED$3 = "collapsed" + EVENT_KEY$5;
   var EVENT_SHOWN = "shown" + EVENT_KEY$5;
   var SELECTOR_TOGGLE_BUTTON = '[data-widget="pushmenu"]';
-  var SELECTOR_BODY = 'body';
+  var SELECTOR_BODY = 'div';
   var SELECTOR_OVERLAY = '#sidebar-overlay';
   var SELECTOR_WRAPPER = '.wrapper';
   var CLASS_NAME_COLLAPSED$1 = 'sidebar-collapse';
