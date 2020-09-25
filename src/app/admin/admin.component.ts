@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { SCROLLBAR_OPTIONS } from './admin.constants';
+
+export const SCROLLBAR_OPTIONS = {
+  scrollbars: {
+    autoHide: 'scroll'
+  }
+};
 
 @Component({
   selector: 'app-admin',
