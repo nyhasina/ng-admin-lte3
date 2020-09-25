@@ -5,7 +5,10 @@ import { AdminComponent } from './admin.component';
 const routes: Routes = [
   {
     path: '',
-    component: AdminComponent
+    component: AdminComponent,
+    data: {
+      breadcrumb: 'Home'
+    }
   }
 ];
 
