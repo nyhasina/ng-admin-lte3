@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SCROLLBAR_OPTIONS } from './admin.constants';
 
 @Component({
   selector: 'app-admin',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin.component.scss']
 })
 export class AdminComponent implements OnInit {
+  options = SCROLLBAR_OPTIONS;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
